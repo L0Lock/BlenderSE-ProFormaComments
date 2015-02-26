@@ -1,5 +1,5 @@
 callback(
 [
-  { "name": "[Q]Test", "description": "Test"}
+  { "name": "[Q]Test", "description": "Test"},
 ]
 )
