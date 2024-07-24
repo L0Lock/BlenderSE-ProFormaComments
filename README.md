@@ -1,5 +1,5 @@
 # BlenderSE-ProFormaComments
-Ttailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be used with [SE-AutoReviewComments: AutoReviewComments - Pro-forma comments for SE](https://github.com/Benjol/SE-AutoReviewComments?tab=readme-ov-file#installation)
+Tailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be used with [SE-AutoReviewComments: AutoReviewComments - Pro-forma comments for SE](https://github.com/Benjol/SE-AutoReviewComments?tab=readme-ov-file#installation)
 
 Install the above extension/userscript. Then you can either import or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.jsonp](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.jsonp) file.
 
