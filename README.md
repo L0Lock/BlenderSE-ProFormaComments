@@ -3,6 +3,10 @@ Ttailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be
 
 Install the above extension/userscript. Then you can either import or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.jsonp](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.jsonp) file.
 
+> [!Warning]
+> It seems that getting remote is bugged out anyway:
+> [Importing remote, or any JSON · Issue #132 · Benjol/SE-AutoReviewComments](https://github.com/Benjol/SE-AutoReviewComments/issues/132#issuecomment-2249041323)
+
 ## Adding new entries
 
 Here are some templates to add new entries:
