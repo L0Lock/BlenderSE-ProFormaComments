@@ -2,12 +2,11 @@
 
 Tailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be used with [SE-AutoReviewComments: AutoReviewComments - Pro-forma comments for SE](https://github.com/Benjol/SE-AutoReviewComments?tab=readme-ov-file#installation)
 
-Install the above extension/userscript. Then you can either import or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.js](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.js) file.
+Install the above extension/userscript. Then you can either import the comments in markdown format from the readme, or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.js](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.js) file so to not have to constantly import manually at each update.
 
 > [!Info]
 > 
 > Yes the official documentation asks for a .jsonp, but users have reported the remote import to fail unless using .js extension.
-
 
 
 > [!Warning]
@@ -15,6 +14,8 @@ Install the above extension/userscript. Then you can either import or [remote](h
 > [Importing remote, or any JSON · Issue #132 · Benjol/SE-AutoReviewComments](https://github.com/Benjol/SE-AutoReviewComments/issues/132#issuecomment-2249041323)
 
 ## Adding new entries
+
+While technically you need to edit only one file, the following steps allow to automatically update the readme. In the future, ideally it should also allow adding entries from either json or md formats as the contributor wishes.
 
 - Edit `generation/comments_contrib.js` (see bellow guidelines)
 
