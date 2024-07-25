@@ -4,7 +4,7 @@ Tailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be 
 
 Install the above extension/userscript. Then you can either import the comments in markdown format from the readme, or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.js](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.js) file so to not have to constantly import manually at each update.
 
-> [!Info]
+> [!Note]
 > 
 > Yes the official documentation asks for a .jsonp, but users have reported the remote import to fail unless using .js extension.
 
@@ -13,9 +13,14 @@ Install the above extension/userscript. Then you can either import the comments 
 > It seems that getting remote is bugged out anyway:
 > [Importing remote, or any JSON · Issue #132 · Benjol/SE-AutoReviewComments](https://github.com/Benjol/SE-AutoReviewComments/issues/132#issuecomment-2249041323)
 
-## Adding new entries
+## Contributing
 
 While technically you need to edit only one file, the following steps allow to automatically update the readme. In the future, ideally it should also allow adding entries from either json or md formats as the contributor wishes.
+
+> [!Note]
+> Requires Python, and some familiarity with JSON formatting ;)
+
+- Clone or Download the repository
 
 - Edit `generation/comments_contrib.js` (see bellow guidelines)
 
@@ -33,16 +38,18 @@ Here are some templates to add new entries:
 ```json
   // Finish every {} with a comma, except the last one of the list!
   // Templates of Question only, Answer only, and common messages.
-  {
+    {
         "name": "[Q]name",
         "description": "Message."
     },
+    {
 
-         "name": "[A]name",
+        "name": "[A]name",
         "description": "Message."
     },
+    {
 
-        { "name": "name",
+        "name": "name",
         "description": "Message."
     },
 ```
