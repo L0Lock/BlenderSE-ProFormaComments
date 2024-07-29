@@ -1,5 +1,8 @@
 # BlenderSE-ProFormaComments
 
+> [! Warning]
+> As explained [here](https://github.com/Benjol/SE-AutoReviewComments/issues/132#issuecomment-2256025023), AutoReviewComments is effectively abandonware. so this fork is irrelevant and therefore archived.
+
 Tailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be used with [SE-AutoReviewComments: AutoReviewComments - Pro-forma comments for SE](https://github.com/Benjol/SE-AutoReviewComments?tab=readme-ov-file#installation)
 
 Install the above extension/userscript. Then you can either import the comments in markdown format from the readme, or [remote](https://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se/3281#3281) the raw [comments.js](https://raw.githubusercontent.com/L0Lock/BlenderSE-ProFormaComments/master/comments.js) file so to not have to constantly import manually at each update.
