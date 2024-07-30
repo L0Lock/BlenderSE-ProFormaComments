@@ -1,6 +1,6 @@
 # BlenderSE-ProFormaComments
 
-> [! Warning]
+> [!Caution]
 > As explained [here](https://github.com/Benjol/SE-AutoReviewComments/issues/132#issuecomment-2256025023), AutoReviewComments is effectively abandonware. so this fork is irrelevant and therefore archived.
 
 Tailored for [Blender Stack Exchange](https://blender.stackexchange.com/) to be used with [SE-AutoReviewComments: AutoReviewComments - Pro-forma comments for SE](https://github.com/Benjol/SE-AutoReviewComments?tab=readme-ov-file#installation)
